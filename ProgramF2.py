@@ -10,7 +10,7 @@ def GetApple():
     return AppleF
     
 def GetOrange():
-    OrangeF = int(input("How many apple you want to buy? "))
+    OrangeF = int(input("How many orange you want to buy? "))
     return OrangeF
 
 def Calculate():

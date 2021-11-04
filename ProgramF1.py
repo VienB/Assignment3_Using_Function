@@ -2,7 +2,7 @@
 #Display those details in the following format.
 #Hi, my name is _____. I am ____ years old and I live in _____ .
 
-# use a function
+# create a function
 
 def YourName():
     Fname = input("Enter Your Name: ")
