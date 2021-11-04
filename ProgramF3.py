@@ -5,9 +5,6 @@
 
 # create a function 
 
-from ProgramF2 import OutPutF
-
-
 def YourMoney():
     fee = input("How much money do you have? ")
     return fee 
@@ -24,12 +21,12 @@ def GetAmount():
     amount = int(money % apple)
     return amount
 
-def OutputF():
+def Display():
     print(f"You can buy {affordable} apples and your is {change}")
 
 money = YourMoney()
 apple = ApplePrice()
 affordable = GetTotal()
 change = GetAmount()
-OutPutF()
+Display()
 
