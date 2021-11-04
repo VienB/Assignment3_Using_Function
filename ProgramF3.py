@@ -14,19 +14,19 @@ def ApplePrice():
     return price 
 
 def GetTotal():
-    result = int(money // apple)
-    return result
+    total = (money // apple)
+    return total
 
-def GetAmount():
-    amount = int(money % apple)
+def Amount():
+    amount = (money % apple)
     return amount
 
-def Display():
-    print(f"You can buy {affordable} apples and your is {change}")
+def Display(affordableQ, changeQ):
+    print(f"You can buy {affordable} apples and your is {changeF} pesos.")
 
 money = YourMoney()
 apple = ApplePrice()
 affordable = GetTotal()
-change = GetAmount()
-Display()
+changeF = Amount()
+Display(affordable, changeF)
 
